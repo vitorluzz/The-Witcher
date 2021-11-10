@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+margin:0;
+  padding:0;
+  box-sizing:border-box;
+  text-transform:uppercase;
+  color:#FFFFFF;
+  font-family:Montserrat;
+  font-size:1vw;
+  list-style:none;
+ 
+}
+html{
+  height:100vh;
+  
+  background-image:url(./img/fundo.png);
+ background-size:cover;
+  background-repeat:no-repeat;
+}
+body{
+   height:100vh;
+  background-image:url(./img/geraldo.png);
+    background-size:contain;
+    background-repeat:no-repeat;
+  background-position:bottom;
+}
+header{
+  width:100vw;
+    height:14vh;
+}
+.logo{
+  width:3vw;
+  margin-left:6vw;
+}
+h1{
+  color:white;
+display:inline-block;
+  vertical-align:top;
+  margin-top:4vh;
+  margin-left:3vh;
+  font-weight: lighter;
+}
+ul{
+  height:100vh;
+  color:white;
+  display:inline-block;
+  vertical-align:top;
+  padding-top:4vh;
+  padding-left:40vw;
+ 
+}
+li{
+  display:inline;
+  padding-right:4vh;
+}
+li:hover{
+  cursor:pointer;
+  font-weight:900;
+}
+main{
+  height:20vh;
+  background-image:url(./img/logo\ do\ meio.png);
+  background-size:contain;
+    background-repeat:no-repeat;
+  background-position:bottom;
+  margin-top:35vh;
+}
+.btn{
+   height:10vh;
+  background-image:url(./img/logo.png);
+    background-size:contain;
+    background-repeat:no-repeat;
+  background-position:bottom;
+  margin-top:5vh;
+}
